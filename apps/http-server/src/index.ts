@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from "express";
 import { client } from "@repo/db/client";
 
@@ -23,4 +26,6 @@ app.post("/signup", async (req, res) => {
     });
 })
 
-app.listen(3002);
+app.listen(3002 , ()=>{
+    console.log("Server is running on port 3002");
+});

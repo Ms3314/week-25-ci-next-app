@@ -14,9 +14,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "description": "",
   "dependencies": {
     "@types/ws": "^8.5.14",
+    "dotenv": "^16.4.7",
     "ws": "^8.18.0"
   }
 }
